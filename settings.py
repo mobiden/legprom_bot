@@ -14,7 +14,7 @@ def create_logs(string: str, printing = False):
         print(string)
 
 CSV_PATH = BASE_DIR + '\\CFN.csv'
-TXT_PATH = BASE_DIR + '\\feat_list.txt'
+TXT_PATH = BASE_DIR + '/feat_list.txt'
 COMP_FEAT_LIST = []
 with open(TXT_PATH, 'r', encoding='utf-8') as f:
     lines = f.readlines()
